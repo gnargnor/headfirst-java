@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DotComTest",
+            "request": "launch",
+            "mainClass": "DotComTest",
+            "projectName": "headfirst-java_34332fb5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleDotComTestDrive",
+            "request": "launch",
+            "mainClass": "SimpleDotComTestDrive",
+            "projectName": "headfirst-java_34332fb5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RulerApp",
+            "request": "launch",
+            "mainClass": "RulerApp",
+            "projectName": "headfirst-java_7f3ed796"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DooBee",
+            "request": "launch",
+            "mainClass": "DooBee",
+            "projectName": "headfirst-java_7f3ed796"
+        }
+    ]
+}
