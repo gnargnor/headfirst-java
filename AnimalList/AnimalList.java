@@ -4,7 +4,7 @@ class AnimalList {
 
     public void add (Animal a) {
         animals[nextIndex] = a;
-        System.out.println("New aminal added at index " + nextIndex);
+        System.out.println("New animal of " + a.getClass() + " added at index " + nextIndex + ".");
         nextIndex++;
     }
 
