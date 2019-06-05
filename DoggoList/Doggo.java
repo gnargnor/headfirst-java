@@ -1,9 +1,6 @@
 import java.text.MessageFormat;
 
-class Doggo {
-    private String name;
-    private String size;
-
+class Doggo extends Animal {
     public Doggo (String name, String size) {
         this.name = name;
         this.size = size;
