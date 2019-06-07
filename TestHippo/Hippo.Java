@@ -1,5 +1,6 @@
 class Hippo extends Animal {
-    public Hippo() {
+    public Hippo(String name) {
+        super(name, "Hippo");
         System.out.println("Making a hippo.");
     }
 }
