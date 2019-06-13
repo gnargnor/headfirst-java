@@ -1,5 +1,8 @@
 class Honey {
     // Count the references
+    public Honey() {
+        System.out.println("honey");
+    }
     public static void main (String[] args) {
         Honey honeyPot = new Honey();  // I IIII IIIII I I
         Honey[] ha = {honeyPot, honeyPot, honeyPot, honeyPot};

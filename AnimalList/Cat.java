@@ -20,7 +20,7 @@ class Cat extends Animal implements Pet {
 
     public void introduction () {
         Object[] params = new Object[]{"Cat", "Cat"};
-        String msg = MessageFormat.format("Meow. Me {0}. Size {0}.", params);
+        String msg = MessageFormat.format("Meow. Me {0}. Size {1}.", params);
         System.out.println(msg);
     }
 }
